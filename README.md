@@ -88,4 +88,17 @@ Image('synthetic.png')
 ## Cite this work
 More details on how the TSProto works and evaluation benchmarks can eb found in the following paper:
 
-```Comming soon```
+```
+@article{boobek2025tsproto,
+ title = {TSProto: Fusing deep feature extraction with interpretable glass-box surrogate model for explainable time-series classification},
+ journal = {Information Fusion},
+ pages = {103357},
+ year = {2025},
+ issn = {1566-2535},
+ doi = {https://doi.org/10.1016/j.inffus.2025.103357},
+ url = {https://www.sciencedirect.com/science/article/pii/S1566253525004300},
+ author = {Szymon Bobek and Grzegorz J. Nalepa},
+ keywords = {Explainable artificial intelligence, Time-series, Neurosymbolic, Deep neural networks},
+ abstract = {Deep neural networks (DNNs) are highly effective at extracting features from complex data types, such as images and text, but often function as black-box models, making interpretation difficult. We propose TSProto – a model-agnostic approach that goes beyond standard XAI methods focused on feature importance, clustering important segments into conceptual prototypes—high-level, human-interpretable units. This approach not only enhances transparency but also avoids issues seen with surrogate models, such as the Rashomon effect, enabling more direct insights into DNN behavior. Our method involves two phases: (1) using feature attribution tools (e.g., SHAP, LIME) to highlight regions of model importance, and (2) fusion of these regions into prototypes with contextual information to form meaningful concepts. These concepts then integrate into an interpretable decision tree, making DNNs more accessible for expert analysis. We benchmark our solution on 61 publicly available datasets, where it outperforms other state-of-the-art prototype-based methods and glassbox models by an average of 10% in the F1 metric. Additionally, we demonstrate its practical applicability in a real-life anomaly detection case. The results from the user evaluation, conducted with 17 experts recruited from leading European research teams and industrial partners, also indicate a positive reception among experts in XAI and the industry. Our implementation is available as an open-source Python package on GitHub and PyPi.}
+}
+```
