@@ -1,7 +1,7 @@
 Release notes
 =============
 
-0.3.1 (2025-03-14)
+0.3.1 (2025-06-18)
 -------------
 * Added tutorial that explains how to interpret the TSProto explanations
 * Fixed issue with incorrect contrastive example plotting when plotted pattern is only in focus class
@@ -9,6 +9,7 @@ Release notes
 * Bugfix in incorrect number of cluster assignment when sbc method is set
 * Contrastive plots added
 * Bugfix in incorrect barycenters in SBC method
+* UCR ECG dataset example added
 
 0.3.0 (2024-09-11)
 -------------
